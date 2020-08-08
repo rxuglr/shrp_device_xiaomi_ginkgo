@@ -126,7 +126,7 @@ TW_NO_SCREEN_TIMEOUT := true
 
 SHRP_PATH := device/xiaomi/ginkgo
 SHRP_MAINTAINER := smxdfx
-SHRP_DEVICE_CODE := willow
+SHRP_DEVICE_CODE := willow/ginkgo
 SHRP_EDL_MODE := 0
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
