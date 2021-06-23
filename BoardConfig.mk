@@ -125,9 +125,9 @@ TW_NO_SCREEN_TIMEOUT := true
 #SHRP-specific lines
 
 SHRP_PATH := device/xiaomi/ginkgo
-SHRP_MAINTAINER := smxdfx
-SHRP_DEVICE_CODE := willow/ginkgo
-SHRP_EDL_MODE := 0
+SHRP_MAINTAINER := rxuglr
+SHRP_DEVICE_CODE := ginkgo
+SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
@@ -144,6 +144,7 @@ SHRP_STATUSBAR_RIGHT_PADDING := 40
 SHRP_STATUSBAR_LEFT_PADDING := 40
 SHRP_EXPRESS := true
 SHRP_OFFICIAL := true
+SHRP_NOTCH := true
 
 # Prevent ARB
 PLATFORM_SECURITY_PATCH := 2099-12-31
