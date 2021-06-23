@@ -22,6 +22,9 @@ $(call inherit-product, build/target/product/embedded.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
+# Dependencies
+ALLOW_MISSING_DEPENDENCIES := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ginkgo
 PRODUCT_NAME := omni_ginkgo
