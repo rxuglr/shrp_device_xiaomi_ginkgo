@@ -118,13 +118,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
-TW_Y_OFFSET := 80
-TW_H_OFFSET := -80
-TARGET_USES_LOGD := true
-TARGET_USES_MKE2FS := true
-TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone0/temp"
-TW_MAX_BRIGHTNESS := 2047
-TW_DEFAULT_BRIGHTNESS := 1200
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone6/temp"
 #TW_Y_OFFSET := 80
 #TW_H_OFFSET := -80
 TARGET_USES_LOGD := true
@@ -133,7 +127,7 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_HAS_EDL_MODE := true
 TW_NO_SCREEN_BLANK := true
-TW_NO_SCREEN_TIMEOUT := true
+#TW_NO_SCREEN_TIMEOUT := true
 
 #SHRP-specific lines
 
