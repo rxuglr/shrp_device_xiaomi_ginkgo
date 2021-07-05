@@ -14,4 +14,4 @@ It was released in August, 2019.
 | Battery                 | Non-removable Li-Po 4000 mAh battery                                                                                        |
 | Display                 | 1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)                                                                             |
 
-![Redmi Note 8/8T](https://sintetiki.net/images/product/20344/1485/note-8--white.png)
+![Redmi Note 8/8T](https://i.blogs.es/2df1ce/xiaomi-redmi-note-8-2021-oficial/1366_2000.jpg)
