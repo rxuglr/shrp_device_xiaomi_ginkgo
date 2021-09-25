@@ -1,4 +1,4 @@
-# Unified TWRP Device Tree for Redmi Note 8/8T (ginkgo/willow)
+# SHRP Device Tree for Xiaomi Redmi Note 8/8T (ginkgo/willow)
 
 The Redmi Note 8 (codenamed "ginkgo") is a mid-range smartphone from Xiaomi. It was announced in August 2019 and released in October 2019.
 
@@ -31,11 +31,6 @@ The Redmi Note 8T (codenamed "willow") is a mid-range smartphone from Xiaomi. Un
 
 ![Redmi Note 8](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-8/specs1.png)
 
-
-For building TWRP for Xiaomi Redmi Note 8/8T
-
-TWRP device tree for Xiaomi Redmi Note 8/8T
-
 ## Features
 
 Works:
@@ -52,37 +47,3 @@ Works:
 TO-DO:
 
 - Vibration support
-
-## Compile
-
-First checkout minimal twrp with omnirom tree:
-
-```
-repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
-repo sync
-```
-
-Then add these projects to .repo/manifest.xml:
-
-```xml
-<project path="device/xiaomi/ginkgo" name="TeamWin/android_device_xiaomi_ginkgo" remote="github" revision="android-9.0" />
-```
-
-Finally execute these:
-
-```
-. build/envsetup.sh
-lunch omni_ginkgo-eng
-export ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp tree.
-mka recocoveryimage
-```
-
-To test it:
-
-```
-fastboot boot out/target/product/ginkgo/recovery.img
-```
-
-## Thanks
-
-- Thanks to @PeterCxy for the commits and the base: https://github.com/PeterCxy/android_device_xiaomi_violet-twrp
