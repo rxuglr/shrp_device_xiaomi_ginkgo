@@ -15,8 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ginkgo.mk
+    $(LOCAL_DIR)/twrp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ginkgo-userdebug \
-    omni_ginkgo-eng
+    twrp_ginkgo-userdebug \
+    twrp_ginkgo-eng \
+    twrp_ginkgo-user
